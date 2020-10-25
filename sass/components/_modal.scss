@@ -8,20 +8,16 @@
 
   background-color: rgba(0, 0, 0, 0.2);
   transition: all 500ms linear;
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: all 500ms linear 700ms;
+  }
 }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-
-  transition: all 500ms linear 700ms;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0);
-  transition: transform 1000ms ease-in-out;
-}
 .modal {
   position: absolute;
   top: 50%;
@@ -37,27 +33,32 @@
   background-color: #fff;
 
   transition: transform 1000ms ease-in-out 500ms;
-}
 
-.modal__btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  &__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
 
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
 
-  align-items: center;
-  justify-content: center;
-}
+    align-items: center;
+    justify-content: center;
+  }
 
-.modal__icon {
-  width: 18px;
-  height: 18px;
+  &_icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 1000ms ease-in-out;
+  }
 }
 
 @import "./modal-form";

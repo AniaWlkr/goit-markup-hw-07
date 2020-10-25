@@ -2,18 +2,18 @@
   padding: 60px 0;
 
   background-color: $footer-bgc;
-}
 
-.footer__container {
-  align-items: baseline;
-  justify-content: space-between;
-}
+  &__container {
+    align-items: baseline;
+    justify-content: space-between;
+  }
 
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 20px;
+  &__logo {
+    display: inline-block;
+    margin-bottom: 20px;
 
-  color: $footer-logo-color;
+    color: $footer-logo-color;
+  }
 }
 
 @import "../components/footer-address";

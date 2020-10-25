@@ -2,23 +2,16 @@
   padding: 30px 0;
 
   border-bottom: 1px solid $header-border;
-}
 
-.header.index {
-  border-style: none;
-}
+  &__logo {
+    animation-duration: 1500ms;
 
-.header .container,
-.navigation,
-.navigation-list,
-.header-address__list {
-  align-items: center;
-}
+    margin-right: 93px;
+  }
 
-.header__logo {
-  animation-duration: 1500ms;
-
-  margin-right: 93px;
+  &.index {
+    border-style: none;
+  }
 }
 
 @import "../components/navigation-list";
