@@ -9,7 +9,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--footer-logo-color);
+  color: $footer-logo-color;
 }
 
 .footer-socials__item:not(:last-child) {
@@ -30,7 +30,7 @@
 
 .footer-socials__link:hover,
 .footer-socials__link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-socials__icon {

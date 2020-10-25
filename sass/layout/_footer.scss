@@ -1,7 +1,7 @@
 .footer {
   padding: 60px 0;
 
-  background-color: var(--footer-bgc);
+  background-color: $footer-bgc;
 }
 
 .footer__container {
@@ -13,7 +13,7 @@
   display: inline-block;
   margin-bottom: 20px;
 
-  color: var(--footer-logo-color);
+  color: $footer-logo-color;
 }
 
 @import "../components/footer-address";

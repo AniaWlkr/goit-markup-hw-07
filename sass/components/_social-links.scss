@@ -9,15 +9,15 @@
   height: 44px;
   border-radius: 50%;
 
-  color: var(--our-team-social-icon);
+  color: $our-team-social-icon;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links__link:hover,
 .social-links__link:focus {
-  color: var(--our-team-social-icon-accent);
-  background-color: var(--accent-color);
+  color: $our-team-social-icon-accent;
+  background-color: $accent-color;
 }
 .social-links__icon {
   width: 44px;

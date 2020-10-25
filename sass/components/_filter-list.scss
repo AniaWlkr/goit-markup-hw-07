@@ -15,8 +15,8 @@
   border-radius: 4px;
   border-style: none;
 
-  background-color: var(--portfolio-btn-color);
-  color: var(--portfolio-btn-txt-color);
+  background-color: $portfolio-btn-color;
+  color: $portfolio-btn-txt-color;
 
   font-weight: 500;
   font-size: 16px;
@@ -29,6 +29,6 @@
 
 .filter-list__btn:hover,
 .filter-list__btn:focus {
-  background-color: var(--accent-color);
-  color: var(--portfolio-btn-accent);
+  background-color: $accent-color;
+  color: $portfolio-btn-accent;
 }

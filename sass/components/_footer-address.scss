@@ -8,13 +8,13 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
 
-  color: var(--footer-address-color);
+  color: $footer-address-color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address__link.location {
-  color: var(--footer-address-location-color);
+  color: $footer-address-location-color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -23,5 +23,5 @@
 .footer-address__link:focus,
 .footer-address__ink-location:hover,
 .footer-address__link-location:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }

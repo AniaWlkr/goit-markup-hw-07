@@ -1,7 +1,7 @@
 .team {
   padding: 94px 0;
 
-  background-color: var(--our-team-section-bgc);
+  background-color: $our-team-section-bgc;
 }
 
 .team__list {
@@ -36,7 +36,7 @@
 
   font-weight: 500;
 
-  color: var(--section-title-color);
+  color: $section-title-color;
 }
 
 .team__position {
